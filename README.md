@@ -1,10 +1,24 @@
-# Name of project
+# Project Portfolio
 
-> A longer description
+:fire: **Milena's Portfolio** :fire:
+
+Project portfolio is a meticulously crafted portfolio that showcases the
+professional journey and accomplishments of me. This portfolio serves as a
+comprehensive reflection of my skills, experiences, and expertise in
+programming.
+
+Through a visually engaging and user-friendly interface, visitors can explore a
+diverse range of projects, case studies, and notable achievements that highlight
+my capabilities and creative problem-solving approach.
+
+With a clear focus on professionalism and attention to detail, that site offers
+a compelling narrative that effectively communicates my unique value proposition
+and establishes a strong online presence, making it a valuable resource for
+potential clients, collaborators, and employers alike.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [Name of project](#project-portfolio)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
