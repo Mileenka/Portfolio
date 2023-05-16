@@ -1,30 +1,43 @@
 # Backlog
 
-A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own!
+## `Milena's portfolio` page
 
-## Must-Haves
+### Must-Have
 
-> these are necessary for basic usability
+- [ ] As a user I want to see a navigation
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+  - navigation which will allow to easily navigate the entire page is at the top
+    of the page on mobile and on the left side on desktop
 
-## Should-Haves
+- [ ] As a user I can read the title and background image of the page
 
-> these will complete the user experience, but are not necessary
+  - there is a prominent title in the center and background which will be in the
+    background
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+- [ ] As a user I can read an introduction about person's portfolio
 
-## Could-Haves
+  - there is a sections directly under the background
 
-> would be really cool ... if there's time
+- [ ] As a user I want to see information about work experience
 
-- [ ] As a ... I want to ... so that ...
-  - _Given [context] when [a specific action is performed] then [a set of
-    consequences should occur]_
+  - section work will be below introduction
+
+- [ ] As a user I can read about skills of person
+
+  - there is a skills under the work section
+
+- [ ] As a user I can to learn more about person
+
+  - there is a footer with contact info and other details
+
+### Should Haves
+
+- [ ] As a user, I want the website to be interactive and user usability
+
+  - the site will contain interesting design details that will be user-friendly
+
+### Could Haves
+
+- [ ] I want to get in touch with someone quickly
+
+  - There is a contact form above the footer

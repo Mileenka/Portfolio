@@ -1,30 +1,16 @@
 # Constraints
 
-Some boundaries around our project.
+Some boundaries around my project.
 
 ## External
 
-<!--
-  constraints coming from the outside that your team has no control over. these may include:
-  - project deadlines
-  - UI design or color schemes
-  - technologies (sometimes a client will tell you what to use)
--->
+- Time Limitations: I have a deadline to complete my portfolio, which can impose
+  time constraints on gathering materials, designing, and developing the
+  portfolio.
 
 ## Internal: Involuntary
 
-<!--
-  constraints that come from within your team, and you have no control over. they may include:
-  - each of your individual skill levels
-  - amount of time available to work on the project
--->
-
-## Internal: Voluntary
-
-<!--
-  constraints that your team decided on to help scope the project. they may include:
-  - coding style & conventions
-  - agree on a code review checklist for the project repository
-  - the number of hours you want to spend working
-  - only using the colors black and white
--->
+- Technical expertise: Depending on my technical skills, I may encounter
+  limitations in implementing advanced features, interactive elements in my
+  portfolio.
+- Time: Amount of time available to work on the project
