@@ -19,6 +19,111 @@ body {
   overflow-x: hidden;
 }
 
+/* Navigation to update */
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 6rem;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 300%;
+  letter-spacing: 0.5ex;
+}
+
+.logo {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  font-family: "Sarina", sans-serif;
+  font-size: 5rem;
+  color: rgb(145, 247, 105);
+  filter: brightness(80%);
+  z-index: 1;
+}
+
+.top .open-icon {
+  position: relative;
+  top: 2rem;
+  flex-basis: 90%;
+  font-size: 160%;
+  text-align: right;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+.menu>path {
+  fill: rgb(145, 247, 105);
+  filter: brightness(80%);
+}
+
+nav {
+  display: none;
+}
+
+.nav-display-block {
+  display: block;
+}
+
+nav .close-icon {
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  z-index: 3;
+  cursor: pointer;
+}
+
+.close>path {
+  fill: rgb(145, 247, 105);
+  filter: brightness(80%);
+}
+
+nav ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.867);
+  color: white;
+  font-family: "Finger Paint", sans-serif;
+  text-transform: uppercase;
+  z-index: 2;
+  border-left: 2px solid rgb(145, 247, 105);
+  transition-duration: 1s;
+}
+
+nav li {
+  flex-basis: 12%;
+  width: 100%;
+  font-size: 180%;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
+.nav-li>a:focus {
+  color: rgb(145, 247, 105);
+}
+
 /* Header */
 
 .header-bg {
@@ -29,16 +134,6 @@ body {
   min-height: 100vh;
   background: url(../public/forest.jpg) center/cover;
   filter: brightness(60%);
-}
-
-.header-logo {
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  font-family: "Sarina", sans-serif;
-  font-size: 5rem;
-  color: rgba(145, 247, 105, 0.594);
-  z-index: 1;
 }
 
 .header-about-me {
@@ -71,6 +166,26 @@ body {
 }
 
 @media screen and (min-width: 750px) {
+
+  .open-icon,
+  .close-icon {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 10%;
+    background-color: transparent;
+    border-left: none;
+    color: rgb(255, 255, 255);
+  }
+
   .header-bg {
     background-image: url(../public/forest.jpg);
     background-position: 60% 75%;
