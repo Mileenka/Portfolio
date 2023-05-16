@@ -1,17 +1,18 @@
 # Design
 
-## Project's design overview
+## Milena's portfolio design overview
 
-> Give an overview of your project's design
-
-<!-- give an overview of your project's design -->
-<!-- describe the reasoning behind your group's design and wireframe -->
-<!-- include other centralized decisions like fonts, palates, ... -->
-
----
+> I created a website design which is user-friendly. Easy access to individual
+> parts of the site. Dressed in an expressive title. Colors selected in an
+> extraordinary way, which will create this page unimaginably interesting for
+> the user.
 
 ## Wireframe(s)
 
-> Include your wireframe(s) and link to wireframe
+### Desktop Design
 
-<!-- provide a link to your wireframe documenting on Figma, or wherever it is -->
+> ![design](../public/desktop-design.svg)
+
+### Mobile Design
+
+> ![design](../public/portfolio-mobile.svg)
