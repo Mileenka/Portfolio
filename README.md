@@ -40,7 +40,7 @@ potential clients, collaborators, and employers alike.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./public/screen-portfolio.png)
 
 ## Technologies
 
