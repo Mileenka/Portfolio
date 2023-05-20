@@ -61,7 +61,7 @@
           <a href="#work">Work</a>
         </li>
         <li class="nav-li contact">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </nav>
@@ -205,6 +205,54 @@
         </div>
       </div>
     </section>
+
+    <!-- Contact -->
+    <section class="section-contact" id="contact">
+      <h2 class="contact-h2">Contact</h2>
+      <hr class="contact-hr" />
+      <div class="contact-content">
+        <div class="photo-contact">
+          <img class="my-photo" src="./public/mee.png" alt="me" />
+        </div>
+        <div class="contact-container">
+          <p class="contact-me">Contact me</p>
+          <form class="form-contact">
+            <div class="labels-contact">
+              <label for="name" class="contact-label">Full Name</label>
+              <input
+                type="text"
+                id="name"
+                class="input-name"
+                name="name"
+                required
+                autocomplete="none"
+              />
+              <label for="email" class="contact-label">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                class="input-email"
+                name="email"
+                required
+                pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+              />
+            </div>
+            <label for="message"></label>
+            <textarea
+              class="message"
+              name="message"
+              id="message"
+              rows="10"
+              minlength="5"
+              placeholder="Type your massage..."
+            ></textarea>
+            <button class="form-btn" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
       <div class="footer">
         <p class="website-owner">
