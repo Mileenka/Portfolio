@@ -83,7 +83,7 @@ a {
   cursor: pointer;
 }
 
-.menu > path {
+.menu>path {
   fill: rgb(145, 247, 105);
   filter: brightness(80%);
 }
@@ -104,7 +104,7 @@ nav .close-icon {
   z-index: 3;
 }
 
-.close > path {
+.close>path {
   fill: rgb(145, 247, 105);
   filter: brightness(80%);
 }
@@ -150,11 +150,11 @@ nav a:visited {
   color: inherit;
 }
 
-.nav-li > a:hover {
+.nav-li>a:hover {
   color: rgb(145, 247, 105);
 }
 
-.nav-li > a:focus {
+.nav-li>a:focus {
   color: rgb(145, 247, 105);
 }
 
@@ -162,6 +162,7 @@ nav a:visited {
 
 .header-bg {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100vw;
@@ -170,7 +171,7 @@ nav a:visited {
   filter: brightness(60%);
 }
 
-.header-about-me {
+.greeting {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -178,6 +179,10 @@ nav a:visited {
   height: 66%;
   padding: 3rem;
   background-color: rgba(8, 25, 3, 0.612);
+}
+
+.header-about-me,
+.developer {
   font-size: 2.5rem;
   color: rgb(205, 241, 207);
   line-height: 3rem;
@@ -622,7 +627,7 @@ nav a:visited {
 
 @media screen and (min-width: 1024px) {
   .header-about-me {
-    width: 50%;
+    width: 100%;
     height: 60%;
     font-size: 3rem;
   }
